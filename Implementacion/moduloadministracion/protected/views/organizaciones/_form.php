@@ -57,6 +57,7 @@
         <?php if($model->validar==''):?>
         
 	<div class="row">
+                
 		<?php echo $form->labelEx($model,'validar'); ?>
 		<?php echo $form->textArea($model,'validar',array('rows'=>1, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'validar'); ?>
