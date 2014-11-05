@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 //	array('label'=>'Create Investigador', 'url'=>array('create')),
-	array('label'=>'Registrar como Evaluador', 'url'=>array('admin')),
+	array('label'=>'Registrar investigador como Evaluador', 'url'=>array('admin')),
 );
 ?>
 

@@ -61,13 +61,13 @@
 	</div>
 	<div class="row">
 		<?php echo $form->labelEx($model,'Evaluador'); ?>
-		<?php echo $form->textField($model,'Evaluador'); ?>
+		<?php echo $form->textField($model,'Evaluador'); ?>0 es no , 1 es si
 		<?php echo $form->error($model,'Evaluador'); ?>
 	</div>
         <?php if($model->Evaluador==1):?>
         <div class="row">
 		<?php echo $form->labelEx($model,'justificacion'); ?>
-		<?php echo $form->textField($model,'justificacion'); ?>
+		<?php echo $form->textField($model,'justificacion'); ?> 
 		<?php echo $form->error($model,'justificacion'); ?>
 	</div>
         <?php     endif?>
