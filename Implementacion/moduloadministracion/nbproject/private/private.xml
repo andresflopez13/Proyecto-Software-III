@@ -5,23 +5,32 @@
         <group>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/update.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/controllers/InvestigadorController.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/_search.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/_form.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/admin.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/layouts/main.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/controllers/SiteController.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/config/main.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/_view.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/controllers/OrganizacionesController.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/controllers/SiteController.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/admin.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/index.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/models/LoginForm.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/yiic</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/_form.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/create.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/models/Investigador.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/index.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/_view.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/_search.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/_search.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/_form.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/_view.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/view.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/layouts/column1.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/controllers/OrganizacionesController.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/update.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/create.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/view.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/models/Investigador.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/site/index.php</file>
+            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/layouts/column2.php</file>
             <file>file:/C:/xampp/htdocs/moduloadministracion/protected/config/test.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/index.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/_view.php</file>
         </group>
     </open-files>
 </project-private>
