@@ -18,22 +18,22 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'Email'); ?>
-		<?php echo $form->textArea($model,'Email',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'Email',array('rows'=>1, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Direccion'); ?>
-		<?php echo $form->textArea($model,'Direccion',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'Direccion',array('rows'=>1, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Telefono'); ?>
-		<?php echo $form->textArea($model,'Telefono',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'Telefono',array('rows'=>1, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Nombre'); ?>
-		<?php echo $form->textArea($model,'Nombre',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'Nombre',array('rows'=>1, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row">
@@ -48,6 +48,7 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'validar'); ?>
+                <?php echo $form->dropDownList($model,'validar',array(" ")); ?>
 		<?php echo $form->textArea($model,'validar',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
 

@@ -61,10 +61,10 @@
 	</div>
 	<div class="row">
 		<?php echo $form->labelEx($model,'Evaluador'); ?>
-		<?php echo $form->textField($model,'Evaluador'); ?>0 es no , 1 es si
+		<?php echo $form->checkBox($model,'Evaluador'); ?>
 		<?php echo $form->error($model,'Evaluador'); ?>
 	</div>
-        <?php if($model->Evaluador==1):?>
+        <?php if($model->Evaluador==1 && $model->justificacion=="" ):?>
         <div class="row">
 		<?php echo $form->labelEx($model,'justificacion'); ?>
 		<?php echo $form->textField($model,'justificacion'); ?> 

@@ -59,7 +59,7 @@
 	<div class="row">
                 
 		<?php echo $form->labelEx($model,'validar'); ?>
-		<?php echo $form->textArea($model,'validar',array('rows'=>1, 'cols'=>50)); ?>
+		<?php echo $form->checkBox($model,'validar'); ?>
 		<?php echo $form->error($model,'validar'); ?>
 	</div>
         <div class="row">
