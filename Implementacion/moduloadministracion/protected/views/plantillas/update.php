@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Plantillas', 'url'=>array('index')),
-	array('label'=>'Create Plantillas', 'url'=>array('create')),
+	array('label'=>'Listar Plantillas', 'url'=>array('index')),
+	//array('label'=>'Create Plantillas', 'url'=>array('create')),
 	array('label'=>'View Plantillas', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Plantillas', 'url'=>array('admin')),
+	array('label'=>'Administrar Plantillas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Plantillas <?php echo $model->id; ?></h1>
+<h1> Modificar PLantilla <?php echo $model->titulo; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

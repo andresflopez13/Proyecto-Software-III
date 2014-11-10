@@ -3,12 +3,12 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Parametroses',
+	'Parametros',
 );
 
 $this->menu=array(
-	array('label'=>'Create Parametros', 'url'=>array('create')),
-	array('label'=>'Manage Parametros', 'url'=>array('admin')),
+	array('label'=>'Crer Parametro', 'url'=>array('create')),
+	array('label'=>'Administrar', 'url'=>array('admin')),
 );
 ?>
 

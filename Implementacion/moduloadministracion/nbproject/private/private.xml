@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/organizaciones/_form.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/update.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/investigador/_form.php</file>
-            <file>file:/C:/xampp/htdocs/moduloadministracion/protected/views/parametros/_form.php</file>
+            <file>file:/C:/xampp/htdocs/Proyecto-Software-III/Implementacion/moduloadministracion/protected/views/plantillas/_form.php</file>
+            <file>file:/C:/xampp/htdocs/Proyecto-Software-III/Implementacion/moduloadministracion/protected/views/organizaciones/_form.php</file>
+            <file>file:/C:/xampp/htdocs/Proyecto-Software-III/Implementacion/moduloadministracion/protected/views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/Proyecto-Software-III/Implementacion/moduloadministracion/protected/views/parametros/_form.php</file>
         </group>
     </open-files>
 </project-private>

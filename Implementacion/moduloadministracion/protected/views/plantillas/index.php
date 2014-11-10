@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Plantillas', 'url'=>array('create')),
-	array('label'=>'Manage Plantillas', 'url'=>array('admin')),
+	//array('label'=>'Create Plantillas', 'url'=>array('create')),
+	array('label'=>'Administrar Plantillas', 'url'=>array('admin')),
 );
 ?>
 

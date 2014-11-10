@@ -20,7 +20,8 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('texto')); ?>:</b>
 	<?php echo CHtml::encode($data->texto); ?>
 	<br />
-
+        
+        <?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('enlaces')); ?>:</b>
 	<?php echo CHtml::encode($data->enlaces); ?>
 	<br />
@@ -28,6 +29,7 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('imagenes')); ?>:</b>
 	<?php echo CHtml::encode($data->imagenes); ?>
 	<br />
+        */ ?>
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha')); ?>:</b>
 	<?php echo CHtml::encode($data->fecha); ?>
