@@ -34,19 +34,19 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'texto'); ?>
-		<?php echo $form->textArea($model,'texto',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'texto',array('rows'=>3, 'cols'=>30)); ?>
 		<?php echo $form->error($model,'texto'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'enlaces'); ?>
-		<?php echo $form->textArea($model,'enlaces',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'enlaces',array('rows'=>2, 'cols'=>30)); ?>
 		<?php echo $form->error($model,'enlaces'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'imagenes'); ?>
-		<?php echo $form->textArea($model,'imagenes',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'imagenes',array('rows'=>2, 'cols'=>30)); ?>
 		<?php echo $form->error($model,'imagenes'); ?>
 	</div>
 
