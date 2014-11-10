@@ -74,7 +74,7 @@ Si tiene consultas comerciales u otras preguntas, por favor, rellene el siguient
 	</div>
 	<?php endif; ?>
 
-	<div class="row buttons">
+	<div class="row buttons" >
 		<?php echo CHtml::submitButton('Enviar'); ?>
 	</div>
 

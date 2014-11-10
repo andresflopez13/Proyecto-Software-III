@@ -19,6 +19,7 @@ class UserIdentity extends CUserIdentity
 	{
 		$users=array(
 			// username => password
+			'Andres'=>'fernando13',
 			'demo'=>'demo',
 			'admin'=>'admin',
 		);
