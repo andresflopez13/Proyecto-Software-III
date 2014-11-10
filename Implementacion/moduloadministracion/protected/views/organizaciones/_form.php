@@ -54,7 +54,7 @@
 		<?php echo $model->Ciudad; ?>
 		<?php echo $form->error($model,'Ciudad'); ?>
 	</div>
-        <?php if($model->validar==''):?>
+        <?php if($model->validar==' '):?>
         
 	<div class="row">
                 

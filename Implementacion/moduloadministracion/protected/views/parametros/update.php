@@ -9,9 +9,9 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Parametros', 'url'=>array('index')),
-	array('label'=>'Create Parametros', 'url'=>array('create')),
-	array('label'=>'View Parametros', 'url'=>array('view', 'id'=>$model->id)),
+	//array('label'=>'List Parametros', 'url'=>array('index')),
+	//array('label'=>'Create Parametros', 'url'=>array('create')),
+	//array('label'=>'View Parametros', 'url'=>array('view', 'id'=>$model->id)),
 	array('label'=>'Manage Parametros', 'url'=>array('admin')),
 );
 ?>

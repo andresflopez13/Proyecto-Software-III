@@ -11,8 +11,6 @@ return array(
         'theme'=>"classic",
 	// preloading 'log' component
 	'preload'=>array('log'),
-	 'language'=>'es', // Este es el lenguaje en el que querés que muestre las cosas
-                'sourceLanguage'=>'en',
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -39,7 +37,9 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
+		
+            
+            /*
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -68,6 +68,10 @@ return array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
+            'fixture'=> array(
+                'class' => 'system.test.CDbFixtureManager',
+                ),
+            
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(

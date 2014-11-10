@@ -13,12 +13,12 @@ $this->menu=array(
 );
 
 Yii::app()->clientScript->registerScript('search', "
-*/
+
 $('.search-button').click(function(){
 	$('.search-form').toggle();
 	return false;
 });
-/*
+
 $('.search-form form').submit(function(){
 	$('#organizaciones-grid').yiiGridView('update', {
 		data: $(this).serialize()

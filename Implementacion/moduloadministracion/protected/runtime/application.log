@@ -718,3 +718,9 @@ Stack trace:
 REQUEST_URI=/moduloadministracion/index.php?r=organizaciones/admin
 HTTP_REFERER=http://localhost/moduloadministracion/index.php?r=organizaciones/index
 ---
+2014/11/05 22:42:29 [warning] [application] Failed to set unsafe attribute "justificacion" of "Investigador".
+in C:\xampp\htdocs\moduloadministracion\protected\controllers\InvestigadorController.php (101)
+in C:\xampp\htdocs\moduloadministracion\index.php (13)
+2014/11/05 22:42:47 [warning] [application] Failed to set unsafe attribute "justificacion" of "Investigador".
+in C:\xampp\htdocs\moduloadministracion\protected\controllers\InvestigadorController.php (101)
+in C:\xampp\htdocs\moduloadministracion\index.php (13)

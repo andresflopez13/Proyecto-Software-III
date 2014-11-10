@@ -19,21 +19,36 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-		<?php echo $form->error($model,'id'); ?>
-	</div>
-
+	
 	<div class="row">
 		<?php echo $form->labelEx($model,'Nombre'); ?>
-		<?php echo $form->textArea($model,'Nombre',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $model->Nombre; ?>
 		<?php echo $form->error($model,'Nombre'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Valor'); ?>
-		<?php echo $form->textArea($model,'Valor',array('rows'=>6, 'cols'=>50)); ?>
+            
+            <?php if($model->Valor=='' || $model->Valor >='20000000'):?>
+        	<?php $this->widget("zii.widgets.jui.CJuiDatePicker",array(
+                    "attribute"=>"Valor",
+                    "model"=>$model,
+                    "language"=>"es",
+                    "options"=>array(
+                        "dateFormat"=>"yymmdd"
+                    )
+                )); ?>
+	
+        <?php     endif?>
+            <?php if($model->Valor!=1 && $model->Valor!=0 && $model->Valor!='' && $model->Valor <='20000000'):?>
+        	<?php echo $form->textField($model,'Valor'); ?> 
+	
+        <?php     endif?>
+            <?php if($model->Valor==1 || ($model->Valor==0 && $model->Valor!='' )):?>
+        	<?php echo $form->checkBox($model,'Valor'); ?>
+	
+        <?php     endif?>
+		
 		<?php echo $form->error($model,'Valor'); ?>
 	</div>
 
