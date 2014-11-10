@@ -162,3 +162,11 @@ div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
 	clear: left;
 	padding-left: 110px;
 }
+div.form div.error input, div.form div.error textarea, div.form div.error select, div.form input.error, div.form textarea.error, div.form select.error
+{
+	border-radius: 9px;
+}
+div.form input, div.form textarea, div.form select
+{
+	border-radius: 9px;
+}
