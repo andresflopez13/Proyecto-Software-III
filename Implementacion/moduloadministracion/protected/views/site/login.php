@@ -5,13 +5,13 @@
 
 $this->pageTitle=Yii::app()->name . ' - Login';
 $this->breadcrumbs=array(
-	'Login',
+	'Iniciar Sesion',
 );
 ?>
 
-<h1>Login</h1>
+<h1 style="text-align: center;">Iniciar Sesion</h1>
 
-<p>Please fill out the following form with your login credentials:</p>
+<p>Por favor complete el siguiente formulario con sus datos de acceso:</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -22,31 +22,31 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
+	<div class="row"  style="text-align: center;" >
+		<?php echo $form->labelEx($model,'Nombre de Usuario'); ?>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
+	<div class="row"  style="text-align: center;">
+		<?php echo $form->labelEx($model,'Contrasena'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
-			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
+			Solo se puede acceder con cuenta de administrador
 		</p>
 	</div>
 
-	<div class="row rememberMe">
+	<div class="row rememberMe"  style="text-align: center;">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'rememberMe'); ?>
+		<?php echo $form->label($model,'Recuerdame'); ?>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+	<div class="row buttons"  style="text-align: center;">
+		<?php echo CHtml::submitButton('Iniciar Sesion'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

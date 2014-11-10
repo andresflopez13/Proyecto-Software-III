@@ -1169,3 +1169,128 @@ in C:\xampp\htdocs\moduloadministracion\index.php (13)
 in C:\xampp\htdocs\moduloadministracion\protected\controllers\InvestigadorController.php (101)
 in C:\xampp\htdocs\moduloadministracion\index.php (13)
 >>>>>>> origin/master
+2014/11/10 20:46:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'modulo.parametros' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `parametros`.
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php (136)
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php (13)
+2014/11/10 20:46:30 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "parametros" definida en la clase active record "Parametros" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Parametros))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php(136): CActiveRecord->__construct('search')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ParametrosController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('parametros/admi...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=parametros/admin
+HTTP_REFERER=http://localhost/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=investigador/index
+---
+2014/11/10 20:46:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'modulo.parametros' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `parametros`.
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php (136)
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php (13)
+2014/11/10 20:46:35 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "parametros" definida en la clase active record "Parametros" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Parametros))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php(136): CActiveRecord->__construct('search')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ParametrosController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('parametros/admi...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=parametros/admin
+HTTP_REFERER=http://localhost/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=investigador/index
+---
+2014/11/10 20:46:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'modulo.plantillas' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `plantillas`.
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\PlantillasController.php (136)
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php (13)
+2014/11/10 20:46:38 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "plantillas" definida en la clase active record "Plantillas" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Plantillas))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\PlantillasController.php(136): CActiveRecord->__construct('search')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PlantillasController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('plantillas/admi...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=plantillas/admin
+HTTP_REFERER=http://localhost/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=investigador/index
+---
+2014/11/10 20:46:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'modulo.parametros' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `parametros`.
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php (136)
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php (13)
+2014/11/10 20:46:44 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "parametros" definida en la clase active record "Parametros" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Parametros))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php(136): CActiveRecord->__construct('search')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ParametrosController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('parametros/admi...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=parametros/admin
+HTTP_REFERER=http://localhost/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=site/contact
+---
+2014/11/10 20:47:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'modulo.parametros' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `parametros`.
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php (136)
+in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php (13)
+2014/11/10 20:47:00 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "parametros" definida en la clase active record "Parametros" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Parametros))
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\ParametrosController.php(136): CActiveRecord->__construct('search')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ParametrosController->actionAdmin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('parametros/admi...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=parametros/admin
+HTTP_REFERER=http://localhost/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=site/contact
+---
