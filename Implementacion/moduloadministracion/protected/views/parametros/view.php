@@ -16,7 +16,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Parametros #<?php echo $model->id; ?></h1>
+<h1> Parametro #<?php echo $model->Nombre; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
