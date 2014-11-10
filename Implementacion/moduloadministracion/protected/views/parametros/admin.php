@@ -3,7 +3,7 @@
 /* @var $model Parametros */
 
 $this->breadcrumbs=array(
-	'Parametroses'=>array('index'),
+	'Parametros'=>array('index'),
 	'Manage',
 );
 
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Administrar Parametros</h1>
+<h1 align="center">Administrar Parametros</h1>
 
 
 
