@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Lista Investigadores', 'url'=>array('index')),
-	array('label'=>'Registrar como Evaluador', 'url'=>array('create')),
+	//array('label'=>'Registrar como Evaluador', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "

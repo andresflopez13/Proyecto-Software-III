@@ -18,18 +18,23 @@
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
-
+        
+        <div class="row">
+		<?php echo $form->labelEx($model,'id'); ?>
+		<?php echo $form->textArea($model,'id',array('rows'=>1, 'cols'=>23)); ?>
+		<?php echo $form->error($model,'id'); ?>
+	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'Nombre'); ?>
-		<?php echo $model->Nombre; ?>
+		<?php echo $form->textArea($model,'Nombre',array('rows'=>1, 'cols'=>23)); ?>
 		<?php echo $form->error($model,'Nombre'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Valor'); ?>
             
-            <?php if($model->Valor=='' || $model->Valor >='20000000'):?>
+            <?php if($model->Valor==" " || $model->Valor >='10000000'):?>
         	<?php $this->widget("zii.widgets.jui.CJuiDatePicker",array(
                     "attribute"=>"Valor",
                     "model"=>$model,
@@ -40,7 +45,7 @@
                 )); ?>
 	
         <?php     endif?>
-            <?php if($model->Valor!=1 && $model->Valor!=0 && $model->Valor!='' && $model->Valor <='20000000'):?>
+            <?php if(($model->Valor!=1 && $model->Valor!=0 && $model->Valor!='' && $model->Valor <'10000000')||$model->Valor==NULL):?>
         	<?php echo $form->textField($model,'Valor'); ?> 
 	
         <?php     endif?>
@@ -53,7 +58,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Guardar Cambios'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

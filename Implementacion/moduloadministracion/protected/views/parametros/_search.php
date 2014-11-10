@@ -18,12 +18,12 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'Nombre'); ?>
-		<?php echo $form->textArea($model,'Nombre',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'Nombre',array('rows'=>1, 'cols'=>23)); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Valor'); ?>
-		<?php echo $form->textArea($model,'Valor',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->textArea($model,'Valor',array('rows'=>1, 'cols'=>23)); ?>
 	</div>
 
 	<div class="row buttons">

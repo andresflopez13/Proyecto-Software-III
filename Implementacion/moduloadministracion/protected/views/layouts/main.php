@@ -36,7 +36,7 @@
 				array('label'=>'Organizaciones', 'url'=>array('/organizaciones/index')),
                 array('label'=>'Pares Evaluadores', 'url'=>array('/investigador/index')),
                 array('label'=>'Lista de parametros', 'url'=>array('/parametros/admin')),
-                array('label'=>'Lista de plantillas', 'url'=>array('/plantillas/admin')),
+                array('label'=>'Lista de plantillas', 'url'=>array('/plantillas/index')),
                 array('label'=>'Contactanos', 'url'=>array('/site/contact'))
 			),
 		)); ?>

@@ -3,12 +3,12 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Plantillases',
+	'Plantillas',
 );
 
 $this->menu=array(
 	//array('label'=>'Create Plantillas', 'url'=>array('create')),
-	array('label'=>'Administrar Plantillas', 'url'=>array('admin')),
+	array('label'=>'Configurar Plantillas de Notificaciones y Alertas', 'url'=>array('admin')),
 );
 ?>
 
