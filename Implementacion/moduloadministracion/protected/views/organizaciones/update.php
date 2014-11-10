@@ -15,9 +15,11 @@ $this->menu=array(
 	array('label'=>'Validar Organizaciones', 'url'=>array('admin')),
 );
 ?>
-<form action="procesar.php" method="GET"></form>
+<form action="procesar.php" method="GET">
+    
+</form>
 <h1>Validar Organizacion  <?php echo $model->Nombre; ?></h1>
 
-<h3>Recuerde que al validar o no la organizacion se enviara un mensaje de notificacion a esta </h3> 
+<h3>Recuerde que al validar o no la organizacion se envia un mensaje de notificacion a esta </h3> 
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -8,10 +8,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Parametros', 'url'=>array('index')),
+	//array('label'=>'List Parametros', 'url'=>array('index')),
 	array('label'=>'Create Parametros', 'url'=>array('create')),
 	array('label'=>'Update Parametros', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Parametros', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Parametros', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Este seguro de eliminar este parametro?')),
 	array('label'=>'Manage Parametros', 'url'=>array('admin')),
 );
 ?>

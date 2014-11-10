@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -54,7 +54,7 @@
 		<?php echo $model->Ciudad; ?>
 		<?php echo $form->error($model,'Ciudad'); ?>
 	</div>
-        <?php if($model->validar==''):?>
+        <?php if($model->validar==' '):?>
         
 	<div class="row">
                 
@@ -87,7 +87,7 @@
      
          
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
                 
 	</div>
 

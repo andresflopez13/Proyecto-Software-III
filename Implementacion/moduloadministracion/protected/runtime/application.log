@@ -718,6 +718,7 @@ Stack trace:
 REQUEST_URI=/moduloadministracion/index.php?r=organizaciones/admin
 HTTP_REFERER=http://localhost/moduloadministracion/index.php?r=organizaciones/index
 ---
+<<<<<<< HEAD
 2014/11/10 07:04:25 [warning] [application] Error al establecer unsafe al atributo "justificacion" de "Investigador".
 in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\protected\controllers\InvestigadorController.php (101)
 in C:\xampp\htdocs\Proyecto-Software-III\Implementacion\moduloadministracion\index.php (13)
@@ -1160,3 +1161,11 @@ Stack trace:
 REQUEST_URI=/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=organizaciones/admin
 HTTP_REFERER=http://localhost/Proyecto-Software-III/Implementacion/moduloadministracion/index.php?r=organizaciones/index
 ---
+=======
+2014/11/05 22:42:29 [warning] [application] Failed to set unsafe attribute "justificacion" of "Investigador".
+in C:\xampp\htdocs\moduloadministracion\protected\controllers\InvestigadorController.php (101)
+in C:\xampp\htdocs\moduloadministracion\index.php (13)
+2014/11/05 22:42:47 [warning] [application] Failed to set unsafe attribute "justificacion" of "Investigador".
+in C:\xampp\htdocs\moduloadministracion\protected\controllers\InvestigadorController.php (101)
+in C:\xampp\htdocs\moduloadministracion\index.php (13)
+>>>>>>> origin/master

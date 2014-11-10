@@ -13,7 +13,6 @@ body
 	margin-bottom: 5px;
 	background: white;
 	border: 1px solid #C9E0ED;
-	background-color: #ECECEC;
 }
 
 #header
@@ -26,7 +25,6 @@ body
 #content
 {
     padding: 20px;
-    background-color: #ECECEC;
 }
 
 #sidebar
@@ -37,11 +35,10 @@ body
 #footer
 {
 	padding: 10px;
-	margin: 0px 0px;
+	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
 	border-top: 1px solid #C9E0ED;
-	background-color: #ECECEC;
 }
 
 #logo
@@ -53,15 +50,12 @@ body
 #mainmenu
 {
 	background:white url(bg.gif) repeat-x left top;
-
 }
 
 #mainmenu ul
 {
 	padding:6px 20px 5px 20px;
 	margin:0px;
-	background-color: #8BB9BD;
-	border-radius: 10px;
 }
 
 #mainmenu ul li
@@ -145,7 +139,6 @@ div.breadcrumbs
 {
 	font-size: 0.9em;
 	padding: 5px 20px;
-	background-color: #ECECEC;
 }
 
 div.breadcrumbs span

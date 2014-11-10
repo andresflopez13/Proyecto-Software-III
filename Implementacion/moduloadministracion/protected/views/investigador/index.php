@@ -3,7 +3,7 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Investigadores',
+	'Investigadors',
 );
 
 $this->menu=array(

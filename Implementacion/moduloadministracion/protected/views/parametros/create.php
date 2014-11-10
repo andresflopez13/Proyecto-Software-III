@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Parametros', 'url'=>array('index')),
+	//array('label'=>'List Parametros', 'url'=>array('index')),
 	array('label'=>'Manage Parametros', 'url'=>array('admin')),
 );
 ?>
