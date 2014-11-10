@@ -16,6 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1> Modificar PLantilla <?php echo $model->titulo; ?></h1>
+<h1> Modificar Plantilla <?php echo $model->titulo; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

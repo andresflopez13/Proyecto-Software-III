@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Plantillas', 'url'=>array('index')),
+	//array('label'=>'List Plantillas', 'url'=>array('index')),
 	//array('label'=>'Create Plantillas', 'url'=>array('create')),
-	array('label'=>'Update Plantillas', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Plantillas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+	//array('label'=>'Update Plantillas', 'url'=>array('update', 'id'=>$model->id)),
+	//array('label'=>'Delete Plantillas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Administrar Plantillas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Plantillas #<?php echo $model->id; ?></h1>
+<h1>Vista Plantillas #<?php echo $model->titulo; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
