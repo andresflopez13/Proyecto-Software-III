@@ -11,6 +11,8 @@ return array(
         'theme'=>"classic",
 	// preloading 'log' component
 	'preload'=>array('log'),
+	 'language'=>'es', // Este es el lenguaje en el que querés que muestre las cosas
+                'sourceLanguage'=>'en',
 
 	// autoloading model and component classes
 	'import'=>array(
