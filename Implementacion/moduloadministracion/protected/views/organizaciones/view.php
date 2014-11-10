@@ -15,7 +15,7 @@ $this->menu=array(
 	array('label'=>'Update Organizaciones', 'url'=>array('update', 'id'=>$model->Nit)),
 	array('label'=>'Delete Organizaciones', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->Nit),'confirm'=>'Are you sure you want to delete this item?')),
 	*/
-         array('label'=>'Validar Organizaciones', 'url'=>array('admin')),
+    array('label'=>'Validar Organizaciones', 'url'=>array('admin')),
     
 );
 ?>

@@ -34,7 +34,7 @@ $('.search-form form').submit(function(){
 Desde este sitio podemos validar una organizacion para que pueda iniciar sesiòn
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Busqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,

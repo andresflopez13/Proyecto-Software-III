@@ -3,7 +3,7 @@
 /* @var $model Investigador */
 
 $this->breadcrumbs=array(
-	'Investigadors'=>array('index'),
+	'Investigadores'=>array('index'),
 	'Manage',
 );
 
@@ -32,7 +32,7 @@ $('.search-form form').submit(function(){
 Permite agregar la carateristica de evaluador a un investigador
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Busqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
