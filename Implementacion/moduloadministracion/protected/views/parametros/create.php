@@ -3,8 +3,8 @@
 /* @var $model Parametros */
 
 $this->breadcrumbs=array(
-	'Parametroses'=>array('index'),
-	'Create',
+	'Parametros'=>array('index'),
+	'Crear Parametro',
 );
 
 $this->menu=array(

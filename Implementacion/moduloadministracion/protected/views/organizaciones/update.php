@@ -20,6 +20,6 @@ $this->menu=array(
 </form>
 <h1>Validar Organizacion  <?php echo $model->Nombre; ?></h1>
 
-<h3>Recuerde que al validar o no la organizacion se envia un mensaje de notificacion a esta </h3> 
+<h3>Recuerde que al validar o no la organizacion se enviara un mensaje de notificacion a esta </h3> 
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

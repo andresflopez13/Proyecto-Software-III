@@ -11,23 +11,23 @@
 	'method'=>'get',
 )); ?>
 
-	<div class="row">
+	<div class="">
 		<?php echo $form->label($model,'id'); ?>
 		<?php echo $form->textField($model,'id'); ?>
 	</div>
 
-	<div class="row">
+	<div class="">
 		<?php echo $form->label($model,'Nombre'); ?>
 		<?php echo $form->textArea($model,'Nombre',array('rows'=>1, 'cols'=>23)); ?>
 	</div>
 
-	<div class="row">
+	<div class="">
 		<?php echo $form->label($model,'Valor'); ?>
 		<?php echo $form->textArea($model,'Valor',array('rows'=>1, 'cols'=>23)); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Buscar'); ?>
+	<div class=" buttons">
+		<?php echo CHtml::submitButton('Buscar',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

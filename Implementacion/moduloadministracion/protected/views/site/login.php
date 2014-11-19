@@ -46,7 +46,7 @@ $this->breadcrumbs=array(
 	</div>
 
 	<div class="row buttons"  style="text-align: center;">
-		<?php echo CHtml::submitButton('Iniciar Sesion'); ?>
+		<?php echo CHtml::submitButton('Iniciar Sesion',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

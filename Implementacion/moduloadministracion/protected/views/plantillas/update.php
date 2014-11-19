@@ -3,9 +3,9 @@
 /* @var $model Plantillas */
 
 $this->breadcrumbs=array(
-	'Plantillases'=>array('index'),
+	'Plantillas'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),
-	'Update',
+	'Actualizar Plantillas',
 );
 
 $this->menu=array(

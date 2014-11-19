@@ -14,6 +14,12 @@
 </head>
 
 <body>
+<div class="row">
+  <div class="span8">
+    <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/logo.png">
+  </div>
+
+</div>
 
 <div class="navbar navbar-static-top">
   <div class="navbar-inner">

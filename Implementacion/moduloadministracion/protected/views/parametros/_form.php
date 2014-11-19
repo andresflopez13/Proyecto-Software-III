@@ -15,23 +15,23 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
         
-        <div class="row">
+        <div class="">
 		<?php echo $form->labelEx($model,'id'); ?>
 		<?php echo $form->textArea($model,'id',array('rows'=>1, 'cols'=>23)); ?>
 		<?php echo $form->error($model,'id'); ?>
 	</div>
 	
-	<div class="row">
+	<div class="">
 		<?php echo $form->labelEx($model,'Nombre'); ?>
 		<?php echo $form->textArea($model,'Nombre',array('rows'=>1, 'cols'=>23)); ?>
 		<?php echo $form->error($model,'Nombre'); ?>
 	</div>
 
-	<div class="row">
+	<div class="">
 		<?php echo $form->labelEx($model,'Valor'); ?>
             
             <?php if($model->Valor==" " || $model->Valor >='10000000'):?>
@@ -57,8 +57,8 @@
 		<?php echo $form->error($model,'Valor'); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Guardar Cambios'); ?>
+	<div class="buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Guardar Cambios',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -12,13 +12,13 @@
 )); ?>
 
 	
-	<div class="row">
+	<div class="">
 		Ver : 
                 <?php echo $form->dropDownList($model,'validar',array(""=>"Todos","1"=>"Validados"," "=>"Pendientes")); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Buscar'); ?>
+	<div class="buttons">
+		<?php echo CHtml::submitButton('Buscar',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

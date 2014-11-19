@@ -3,8 +3,8 @@
 /* @var $model Plantillas */
 
 $this->breadcrumbs=array(
-	'Plantillases'=>array('index'),
-	'Create',
+	'Plantillas'=>array('index'),
+	'Crear Plantilla',
 );
 
 $this->menu=array(
@@ -13,6 +13,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Plantillas</h1>
+<h1>Crear Plantillas</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

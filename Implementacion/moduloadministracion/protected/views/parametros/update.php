@@ -3,9 +3,9 @@
 /* @var $model Parametros */
 
 $this->breadcrumbs=array(
-	'Parametroses'=>array('index'),
+	'Parametros'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),
-	'Update',
+	'Actualizar Parametro',
 );
 
 $this->menu=array(

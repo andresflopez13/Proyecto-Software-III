@@ -3,7 +3,7 @@
 /* @var $model Parametros */
 
 $this->breadcrumbs=array(
-	'Parametroses'=>array('index'),
+	'Parametros'=>array('index'),
 	$model->id,
 );
 

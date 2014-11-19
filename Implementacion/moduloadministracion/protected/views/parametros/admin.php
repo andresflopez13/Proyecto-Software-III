@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Parametros'=>array('index'),
-	'Manage',
+	'Administrar Parametros',
 );
 
 $this->menu=array(

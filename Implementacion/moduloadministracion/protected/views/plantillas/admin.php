@@ -3,8 +3,8 @@
 /* @var $model Plantillas */
 
 $this->breadcrumbs=array(
-	'Plantillases'=>array('index'),
-	'Manage',
+	'Plantillas'=>array('index'),
+	'Administrar Plantillas',
 );
 
 $this->menu=array(
@@ -29,7 +29,7 @@ $('.search-form form').submit(function(){
 <h1>Plantillas de notificaciones y alertas</h1>
 
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Busqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,

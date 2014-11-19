@@ -26,10 +26,9 @@ $this->menu=array(
 		'Tipo_Documento',
 		'Numero_Documento',
 		'Nacionalidad',
-                'Hoja_vida',
+        'Hoja_vida',
 		'Datos_contacto',
 		'Evaluador',
-                'justificacion',
-                      
+       	'justificacion',              
 	),
 )); ?>

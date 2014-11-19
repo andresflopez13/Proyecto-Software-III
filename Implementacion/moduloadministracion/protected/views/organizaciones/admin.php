@@ -31,7 +31,7 @@ $('.search-form form').submit(function(){
 <h1>Validar Organizaciones</h1>
 
 <p>
-Desde este sitio podemos validar una organizacion para que pueda iniciar sesiòn
+Desde este sitio podemos validar una organizacion para que pueda iniciar sesion
 </p>
 
 <?php echo CHtml::link('Busqueda Avanzada','#',array('class'=>'search-button')); ?>
