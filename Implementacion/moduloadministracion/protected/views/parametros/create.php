@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Parametros'=>array('index'),
-	'Crear Parametro',
+	'Creacion de Parametros',
 );
 
 $this->menu=array(
@@ -13,6 +13,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Crear Parametro</h1>
+<h1>Creacion de Parametros</h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('model'=>$model,'confirm'=>'Esta seguro de Crear este parametro?')); ?>

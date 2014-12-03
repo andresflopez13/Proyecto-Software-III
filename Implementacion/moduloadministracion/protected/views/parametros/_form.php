@@ -26,13 +26,13 @@
 	</div>
 	
 	<div class="">
-		<?php echo $form->labelEx($model,'Nombre'); ?>
+		<?php echo $form->labelEx($model,'Nombre del parametro'); ?>
 		<?php echo $form->textArea($model,'Nombre',array('rows'=>1, 'cols'=>23)); ?>
 		<?php echo $form->error($model,'Nombre'); ?>
 	</div>
 
 	<div class="">
-		<?php echo $form->labelEx($model,'Valor'); ?>
+		<?php echo $form->labelEx($model,'Valor del parametro'); ?>
             
             <?php if($model->Valor==" " || $model->Valor >='10000000'):?>
         	<?php $this->widget("zii.widgets.jui.CJuiDatePicker",array(
@@ -58,7 +58,8 @@
 	</div>
 
 	<div class="buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Guardar Cambios',array("class"=>"btn btn-primary btn-large")); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Guardar' : 'Guardar Cambios',array("class"=>"btn btn-primary btn-large",'confirm'=>'Esta seguro de agregar este parametro?')); ?>
+            
 	</div>
 
 <?php $this->endWidget(); ?>

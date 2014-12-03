@@ -87,7 +87,7 @@
      
          
 	<div class="buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array("class"=>"btn btn-primary btn-large")); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar',array("class"=>"btn btn-primary btn-large",'confirm'=>'Esta seguro de guardar los cambios?')); ?>
                 
 	</div>
 

@@ -71,7 +71,7 @@ class ParametrosController extends Controller
 		{
 			$model->attributes=$_POST['Parametros'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('view','id'=>$model->id,'confirm'=>'Este seguro de eliminar este parametro?'));
 		}
 
 		$this->render('create',array(

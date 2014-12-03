@@ -1,4 +1,4 @@
-<?php
+    <?php
 /* @var $this PlantillasController */
 /* @var $model Plantillas */
 /* @var $form CActiveForm */
@@ -33,7 +33,7 @@
 	</div>
 
 	<div class="">
-		<?php echo $form->labelEx($model,'texto'); ?>
+		<?php echo $form->labelEx($model,'Cuerpo de la notificacion'); ?>
 		<?php echo $form->textArea($model,'texto',array('rows'=>3, 'cols'=>30)); ?>
 		<?php echo $form->error($model,'texto'); ?>
 	</div>
@@ -76,7 +76,7 @@
 	</div>
 
 	<div class="buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array("class"=>"btn btn-primary btn-large")); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Guardar Cambios',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

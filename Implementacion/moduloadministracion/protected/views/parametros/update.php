@@ -18,4 +18,4 @@ $this->menu=array(
 
 <h1>Actualizar Parametros <?php echo $model->id; ?></h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('model'=>$model,'confirm'=>'Esta seguro de modificar este parametro?')); ?>

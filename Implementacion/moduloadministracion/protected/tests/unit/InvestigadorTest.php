@@ -81,7 +81,7 @@ class InvestigadorTest extends PHPUnit_Framework_TestCase
 
 	 //test para las plantillas
 	 public function testPlantillas(){
-	 	$plantilla
+	 	$plantilla;
 	 }
 }
 ?>
